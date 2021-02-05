@@ -33,3 +33,13 @@ img.barres{
 body {
     color: #0164b5;
 }
+/**************************************
+                Footer
+***************************************/
+footer{
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+footer div{
+    margin-top: px;
+}
