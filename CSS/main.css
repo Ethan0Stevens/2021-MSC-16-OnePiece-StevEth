@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+/**************************************
+                Header
+***************************************/
+header{
+    display: block;
+}
+header nav{
+    display: block;
+    text-align: center;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+}
+header div {
+    display: inline-block;
+}
+div.barres {
+    position: absolute;
+    margin: auto;
+    width: 69px;
+    left: 10px;
+    top: 13px;
+}
+img.barres{
+    margin: 15px;
+}
+/**************************************
+                Body
+***************************************/
+body {
+    color: #0164b5;
+}
