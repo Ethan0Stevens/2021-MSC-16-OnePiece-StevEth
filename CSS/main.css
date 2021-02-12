@@ -24,7 +24,7 @@ header div.logo a img {
 }
 
 div.barres {
-    display: inline-block;
+    display: inline;
     position: absolute;
     margin: auto;
     width: 69px;
@@ -237,8 +237,12 @@ footer p {
     text-align: center;
     margin: auto;
 }
-
-
+/**************************************
+             Page-Monde
+***************************************/
+.page-monde {
+    text-align: center;
+}
 
 
 
