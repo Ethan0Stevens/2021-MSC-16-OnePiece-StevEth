@@ -243,8 +243,8 @@ footer p {
 .page-monde {
     text-align: center;
 }
-.page-monde div h2{
-    font-family: Centaur;
+.page-monde div h2 {
+    font-family: Centaur, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -254,6 +254,19 @@ footer p {
     text-align: center;
     text-decoration-line: underline;
     color: #0F0F0F;
+}
+.page-monde div ul li {
+    font-family: Poiret One, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #000000;
+    margin-right: 7%;
+}
+.page-monde div.liste-puce {
+    background: #46A5EA ;
+    padding-bottom: 7px;
 }
 
 
