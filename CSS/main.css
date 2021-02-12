@@ -185,7 +185,7 @@ footer p {
     display: flex;
     align-items: center;
     background: #E63B3B;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 20px;
 }
 
@@ -203,7 +203,7 @@ footer p {
 .page-synopsis div.shanks {
     align-items: center;
     background: #F2AF03;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 20px;
 }
 
@@ -223,7 +223,7 @@ footer p {
     display: flex;
     align-items: center;
     background: #e4de3c;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 20px 20px 20px;
 }
 
