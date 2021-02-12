@@ -14,12 +14,17 @@ header nav {
     height: 80px;
 }
 
-header div {
-    display: inline-block;
+header div.logo {
+    display: inline;
+}
 
+header div.logo a img {
+    width: auto;
+    height: 100%;
 }
 
 div.barres {
+    display: inline-block;
     position: absolute;
     margin: auto;
     width: 69px;
@@ -65,8 +70,9 @@ h1 {
 }
 
 a {
-   color: #f1ae03;
+    color: #f1ae03;
 }
+
 /**************************************
                 Footer
 ***************************************/
@@ -107,9 +113,11 @@ footer p {
     height: 100%;
     width: 90%;
 }
+
 .page-accueil main div {
     text-align: center;
 }
+
 /**************************************
              Page-Equipage
 ***************************************/
@@ -119,6 +127,7 @@ footer p {
     height: 100%;
     margin: 20px 0;
 }
+
 .page-equipage table td, table th {
     border: 2px solid black;
     vertical-align: center;
@@ -130,35 +139,104 @@ footer p {
     color: black;
     width: auto;
 }
+
 .page-equipage table th {
-    padding:5px;
+    padding: 5px;
 }
+
 .page-equipage main img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border: 3px solid #0F0F0F;
     box-sizing: border-box;
 }
+
 .page-equipage main div {
     text-align: center;
 }
+
 .page-equipage table.rouge {
     background: #E63B3B;
 }
+
 .page-equipage table.orange {
     background: #F2AF03;
 }
+
 .page-equipage table.jaune {
     background: #E4DE3C;
 }
+
 .page-equipage table.bleu-clair {
     background: #46A5EA;
 }
+
 .page-equipage table.bleu-fonce {
     background: #4063BD;
 }
+
 /**************************************
              Page-Synopsis
 ***************************************/
+.page-synopsis {
+    text-align: center;
+}
+
+.page-synopsis div.roger {
+    display: flex;
+    align-items: center;
+    background: #E63B3B;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 20px;
+}
+
+.page-synopsis div.roger p {
+    font-family: Centaur, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    text-align: center;
+    margin: auto;
+}
+
+.page-synopsis div.shanks {
+    align-items: center;
+    background: #F2AF03;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 20px;
+}
+
+.page-synopsis div.shanks p {
+    display: inline-block;
+    font-family: Centaur, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    text-align: center;
+    margin: 17px;
+}
+
+.page-synopsis div.fruit {
+    display: flex;
+    align-items: center;
+    background: #e4de3c;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 20px 20px 20px;
+}
+
+.page-synopsis div.fruit p {
+    font-family: Centaur, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    text-align: center;
+    margin: auto;
+}
 
 
 
