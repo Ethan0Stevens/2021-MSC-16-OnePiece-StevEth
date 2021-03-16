@@ -14,26 +14,75 @@ header nav {
     height: 80px;
 }
 
-header div.logo {
-    display: inline;
+header .logo {
+    display: block;
+    background-color: white;
 }
 
-header div.logo a img {
-    width: auto;
+header .logo img {
+    width: 60%;
     height: 100%;
-}
-
-div.barres {
-    display: inline;
-    position: absolute;
-    margin: auto;
-    width: 69px;
-    left: 10px;
-    top: 13px;
 }
 
 img.barres {
     margin: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: #000000;
+    padding: 0;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav div a {
+    height: auto;
+    font-size: 3.2rem;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+.topnav a.acc {
+    background-color: #46A5EA;
+}
+.topnav a.equ {
+    background-color: #e63b3b;
+}
+.topnav a.syn {
+    background-color: #F2AF03;
+}
+.topnav a.mon {
+    background-color: #E4DE3C;
+}
+
+.topnav a.icon {
+    background: #ffffff;
+    color: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.topnav div a:hover {
+    color: white;
+}
+i.fa.fa-bars {
+    font-size: 50px;
 }
 
 /**************************************

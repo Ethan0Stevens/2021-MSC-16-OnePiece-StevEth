@@ -13,23 +13,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <!-- CSS de base -->
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="page-accueil">
 <header>
     <nav>
-        <div class="barres">
-            <img class="barres" src="Images/BarreMenu.png" width="60%" alt="Barre du menu">
-        </div>
-        <div class="logo">
-            <a href="accueil.html">
+        <div class="topnav">
+            <a href="accueil.html" class="logo">
                 <img src="Images/LogoOnePiece.bmp" alt="Logo One Piece">
+            </a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="accueil.html" class="acc">Accueil</a>
+                <a href="equipage.html" class="equ">Equipage</a>
+                <a href="synopsis.html" class="syn">Synopsis</a>
+                <a href="monde.html" class="mon">Monde</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
             </a>
         </div>
     </nav>
 </header>
 <main>
-    <h1>One Piece</h1>
 
+
+
+    <h1>One Piece</h1>
 
     <div>
         <img src="Images/Mugiwara.bmp" alt="Equipage au complet" >
@@ -60,5 +71,16 @@
     </nav>
     <p>&copy; 2021 Stevens Ethan</p>
 </footer>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 </body>
+
 </html>
