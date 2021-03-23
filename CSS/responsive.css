@@ -3,7 +3,6 @@
            page-Accueil
 **********************************/
 
-
 @media only screen and (min-width: 800px) {
 
     .page-accueil h1 {
@@ -35,8 +34,6 @@
     }
 
 }
-
-
 
 /*********************************
              Header
@@ -88,15 +85,23 @@
         height: auto;
     }
 
-    .topnav a.acc {
+    .page-accueil .topnav a.acc {
+        display: none;
+    }
+    .page-synopsis .topnav a.syn {
+        display: none;
+    }
+    .page-equipage .topnav a.equ {
+        display: none;
+    }
+    .page-monde .topnav a.mon {
         display: none;
     }
 
-    .topnav a.syn, .topnav a.equ, .topnav a.mon {
+    .topnav a {
         display: inline-block;
         width: 33%;
         font-family: Centaur, sans-serif;
     }
-
 
 }
