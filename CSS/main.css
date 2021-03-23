@@ -13,6 +13,13 @@ header nav {
     text-align: center;
     height: 80px;
 }
+header img{
+    display: none;
+}
+
+header img.mainLogo{
+    display: inline;
+}
 
 header nav a.logo {
     display: inline-block;
@@ -169,6 +176,7 @@ footer p {
     box-sizing: border-box;
     height: 100%;
     width: 90%;
+    max-width: 30rem;
 }
 
 .page-accueil main div {

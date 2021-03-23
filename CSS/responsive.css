@@ -1,0 +1,102 @@
+
+/*********************************
+           page-Accueil
+**********************************/
+
+
+@media only screen and (min-width: 800px) {
+
+    .page-accueil h1 {
+        text-align: left;
+        margin-left: 2.2rem;
+    }
+
+    .page-accueil main div {
+        margin-right: 2.2rem;
+        display: inline-block;
+        float: right;
+    }
+    .page-accueil main img {
+        border-radius: 68px;
+    }
+
+    /*********************************
+                 Footer
+    **********************************/
+    footer p {
+        display: inline-block;
+        float: right;
+        margin-top: 4.5rem;
+        padding: 0;
+    }
+
+    footer nav {
+        margin-left: 11rem;
+    }
+
+}
+
+
+
+/*********************************
+             Header
+**********************************/
+
+@media only screen and (min-width: 1024px) {
+
+    header nav a.logo {
+        width: 100%;
+        display: inline-block;
+        height: 5rem;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    header nav {
+        display: inline;
+    }
+
+    header img {
+        display: inline-block;
+        padding: 0 0.2em;
+    }
+
+    a.icon {
+        display: none;
+    }
+
+    i.fa.fa-bars {
+        display: none;
+    }
+
+    .topnav {
+        display: block;
+        height: auto;
+    }
+
+    .topnav #myLinks {
+        width: 100%;
+        height: 4rem;
+    }
+
+    .topnav #myLinks a {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .topnav a.acc {
+        display: none;
+    }
+
+    .topnav a.syn, .topnav a.equ, .topnav a.mon {
+        display: inline-block;
+        width: 33%;
+        font-family: Centaur, sans-serif;
+    }
+
+
+}

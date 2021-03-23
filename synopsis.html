@@ -120,14 +120,23 @@
     <p>&copy; 2021 Stevens Ethan</p>
 </footer>
 <script>
-    function myFunction() {
+    function myFunction(y) {
         var x = document.getElementById("myLinks");
         if (x.style.display === "block") {
             x.style.display = "none";
         } else {
             x.style.display = "block";
         }
+
+        if (y.matches) {
+            x.style.display = "none";
+        } else {
+            x.style.display = "flex";
+        }
     }
+    var y = window.matchMedia("(max-width: 1023px)")
+    myFunction(y)
+    y.addListener(myFunction)
 </script>
 </body>
 </html>
