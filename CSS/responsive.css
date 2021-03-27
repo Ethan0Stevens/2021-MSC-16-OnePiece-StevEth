@@ -1,31 +1,37 @@
 
-/*********************************
-           page-Accueil
-**********************************/
 
 @media only screen and (min-width: 800px) {
+
+
+
+    /*********************************
+               page-Accueil
+    **********************************/
 
     .page-accueil h1 {
         text-align: left;
         margin-left: 2.2rem;
     }
 
-    .page-accueil main div {
+    .page-accueil main div.mugiwara {
         margin-right: 2.2rem;
         display: inline-block;
         float: right;
     }
-    .page-accueil main img {
+
+    .page-accueil main div.mugiwara img {
         border-radius: 68px;
     }
 
     /*********************************
                  Footer
     **********************************/
+
     footer p {
         display: inline-block;
         float: right;
         margin-top: 4.5rem;
+        margin-right: 2rem;
         padding: 0;
     }
 
@@ -33,13 +39,50 @@
         margin-left: 11rem;
     }
 
+    /*********************************
+               Page-Synopsis
+    **********************************/
+
+    .page-synopsis div.roger {
+        float: right;
+        margin-right: 1rem;
+    }
+
+    .page-synopsis p {
+        display: inline;
+    }
+
 }
 
-/*********************************
-             Header
-**********************************/
 
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (max-height: 1040px) {
+    .page-accueil div.one-piece {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+
+    @media only screen and (min-height: 900px) {
+        .page-accueil div.one-piece {
+            display: block;
+            text-align: center;
+            width: 30%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .page-accueil div.one-piece img {
+            border: 3px solid #0F0F0F;
+            width: 100%;
+        }
+
+    }
+
+    /*********************************
+                Header
+    **********************************/
 
     header nav a.logo {
         width: 100%;
@@ -88,12 +131,15 @@
     .page-accueil .topnav a.acc {
         display: none;
     }
+
     .page-synopsis .topnav a.syn {
         display: none;
     }
+
     .page-equipage .topnav a.equ {
         display: none;
     }
+
     .page-monde .topnav a.mon {
         display: none;
     }
@@ -103,5 +149,69 @@
         width: 33%;
         font-family: Centaur, sans-serif;
     }
+}
 
+@media only screen and (min-width: 1680px) {
+
+    p {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+
+    @media only screen and (min-height: 1440px) {
+
+        .page-accueil main div.one-piece {
+            display: block;
+            width: 50%;
+            left: 2rem;
+        }
+    }
+        .page-accueil main div.mugiwara img {
+        width: 100%;
+        height: 90%;
+        max-width: 37rem;
+    }
+
+    .page-accueil div.one-piece {
+        position: absolute;
+        right: 2rem;
+        bottom: 10rem;
+    }
+
+    .page-accueil p {
+        display: inline-block;
+        width: 50%;
+        font-size: 30px;
+    }
+
+}
+@media only screen and (min-width: 2560px) {
+
+    .page-accueil main div.mugiwara img {
+        max-width: 50rem;
+    }
+
+    .page-accueil main div.mugiwara {
+        position: absolute;
+        right: 18rem;
+        top: 19rem;
+    }
+
+    .page-accueil div.one-piece {
+        display: none;
+    }
+
+
+    .page-accueil p {
+        font-size: 34px;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
 }
