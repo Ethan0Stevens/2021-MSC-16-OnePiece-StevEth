@@ -271,7 +271,7 @@ footer p {
     width: 100%;
 }
 
-.page-synopsis main div {
+.page-synopsis main div.roger, div.shanks, div.fruit {
     max-width: 20em;
     width: auto;
     margin: 0 auto;

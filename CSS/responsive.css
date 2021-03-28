@@ -1,13 +1,9 @@
-
-
 @media only screen and (min-width: 800px) {
-
 
 
     /*********************************
                page-Accueil
     **********************************/
-
     .page-accueil h1 {
         text-align: left;
         margin-left: 2.2rem;
@@ -26,7 +22,6 @@
     /*********************************
                  Footer
     **********************************/
-
     footer p {
         display: inline-block;
         float: right;
@@ -42,18 +37,38 @@
     /*********************************
                Page-Synopsis
     **********************************/
-
-    .page-synopsis div.roger {
-        float: right;
-        margin-right: 1rem;
+    .page-synopsis div.part-one {
+        display: inline-block;
+        width: 45%;
+        position: absolute;
+        left: 2rem;
     }
 
-    .page-synopsis p {
-        display: inline;
+    .page-synopsis div.part-two {
+        position: absolute;
+        right: 0;
+        top: 30rem;
+        width: 50%;
+    }
+
+    .page-synopsis div.part-three {
+        margin-top: 70rem;
+    }
+
+    .page-synopsis div.shanks {
+        position: absolute;
+        left: 2rem;
+        top: 58rem;
+    }
+
+    .page-synopsis main div.roger {
+        position: absolute;
+        max-width: 22rem;
+        right: 2rem;
+        top: 17rem;
     }
 
 }
-
 
 
 @media only screen and (max-height: 1040px) {
@@ -81,9 +96,30 @@
     }
 
     /*********************************
+               Page-Synopsis
+    **********************************/
+    .page-synopsis div.part-two {
+        top: 35rem;
+    }
+
+    .page-synopsis div.part-three {
+        width: 70%;
+        margin: 58rem auto 0 auto;
+    }
+
+    .page-synopsis div.shanks {
+        top: 45rem;
+        max-width: 35rem;
+    }
+
+    .page-synopsis main div.roger {
+        right: 6rem;
+        max-width: 30rem;
+    }
+
+    /*********************************
                 Header
     **********************************/
-
     header nav a.logo {
         width: 100%;
         display: inline-block;
@@ -161,6 +197,7 @@
         font-size: 55px;
     }
 }
+
 @media only screen and (min-width: 1920px) {
 
     @media only screen and (min-height: 1440px) {
@@ -171,7 +208,8 @@
             left: 2rem;
         }
     }
-        .page-accueil main div.mugiwara img {
+
+    .page-accueil main div.mugiwara img {
         width: 100%;
         height: 90%;
         max-width: 37rem;
@@ -189,7 +227,20 @@
         font-size: 30px;
     }
 
+    /*********************************
+               Page-Synopsis
+    **********************************/
+
+    .page-synopsis div.shanks {
+        left: 14rem;
+    }
+
+    .page-synopsis main div.roger {
+        right: 13rem;
+    }
+
 }
+
 @media only screen and (min-width: 2560px) {
 
     .page-accueil main div.mugiwara img {
@@ -206,12 +257,23 @@
         display: none;
     }
 
-
     .page-accueil p {
         font-size: 34px;
     }
 
     h1 {
         font-size: 70px;
+    }
+
+    /*********************************
+               Page-Synopsis
+    **********************************/
+
+    .page-synopsis div.shanks {
+        left: 25rem;
+    }
+
+    .page-synopsis main div.roger {
+        right: 25rem;
     }
 }
