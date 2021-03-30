@@ -118,6 +118,59 @@
     }
 
     /*********************************
+               Page-Monde
+    **********************************/
+
+    .page-monde div.titre {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .page-monde div.monde {
+        display: flex;
+        width: 60%;
+        float: right;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        background-color: #F2AF03;
+    }
+
+    .page-monde div.monde img {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        margin: auto 2rem;
+    }
+
+    .page-monde div.monde p {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .page-monde div.liste-puce {
+        display: inline-block;
+        width: 30%;
+        text-align: left;
+    }
+
+    .page-monde div.trajet {
+        display: flex;
+        width: 60%;
+        float: right;
+        margin-right: 2rem;
+        background-color: #e63b3b;
+    }
+
+    .page-monde div.trajet img {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        margin: auto 2rem;
+    }
+
+
+
+    /*********************************
                 Header
     **********************************/
     header nav a.logo {
